@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/makinhs/toptal-rest-series#readme",
   "dependencies": {
+    "@types/swagger-ui-express": "^4.1.3",
     "argon2": "^0.27.0",
     "cors": "^2.8.5",
     "debug": "^4.2.0",
@@ -38,6 +39,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "~5.*.*",
     "shortid": "^2.2.16",
+    "swagger-ui-express": "^4.3.0",
     "winston": "^3.3.3"
   },
   "devDependencies": {
