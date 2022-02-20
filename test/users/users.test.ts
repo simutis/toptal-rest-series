@@ -61,7 +61,7 @@ describe('users and auth endpoints', function () {
         expect(res.body.email).to.equal(firstUserBody.email);
     });
 
-    describe('with a valid access token', function () {
+    describe('with a valid access token', async function () {
         it('should disallow a GET to /users', async function () {
             const res = await request
                 .get(`/users`)
